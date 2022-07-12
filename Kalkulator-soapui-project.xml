@@ -260,7 +260,7 @@
    <soapenv:Header/>\r
    <soapenv:Body>\r
       <tem:Add>\r
-         <tem:intA>997</tem:intA>\r
+         <tem:intA>993</tem:intA>\r
          <tem:intB>112</tem:intB>\r
       </tem:Add>\r
    </soapenv:Body>\r
@@ -369,7 +369,7 @@ declare namespace ns1='http://tempuri.org/';
    <soapenv:Body>\r
       <tem:Multiply>\r
          <tem:intA>15</tem:intA>\r
-         <tem:intB>10</tem:intB>\r
+         <tem:intB>5</tem:intB>\r
       </tem:Multiply>\r
    </soapenv:Body>\r
 </soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="5a010dc5-de0f-4958-b0ca-d3ff5052a9db"/><con:assertion type="Simple Contains" id="c60e2d5c-7fc0-4ed8-b534-7dbdd5459b19" name="Contains"><con:configuration><token>&lt;MultiplyResult>150&lt;/MultiplyResult></token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:testStep type="delay" name="Delay" id="96056d0c-03cd-4dca-9da7-998c54a6896c"><con:settings/><con:config><delay>700</delay></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="d41ef640-7a37-4200-a05c-790f78280299" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_MULTIPLY_Multiply_By_String" searchProperties="true"><con:settings/><con:testStep type="request" name="Request_MULTIPLY_Multiply_By_String" id="9b380e40-3b40-4ac4-ba54-2154d1f1cb39"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>CalculatorSoap</con:interface><con:operation>Multiply</con:operation><con:request name="Request_MULTIPLY_Multiply_By_String" id="ee45f99d-2f7e-4e95-8307-af2ce68245c3"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://www.dneonline.com/calculator.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
